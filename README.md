@@ -7,7 +7,7 @@ The modeling of simulation considers the gaussian profile for source, for instru
 ![alt text](./plots/predictions_sources-49645.png)
 ![alt text](./plots/predictions_sources-57761.png)
 ![alt text](./plots/predictions_sources-7236.png)
-The first column of images are test data, second columns are labels associated with test data, third columns are predictions of CNN (UNet architecture) and fourth columns are difference between truth and prediction.
+The first column of images are test data, second columns are labels associated with test data, third columns are predictions of CNN (UNet architecture) and fourth columns are difference between truth and prediction. The simulation also has function of adjusting signal to noise ratio, according to which the user can generate data for desired cases. First row is for low noise scenario. Second row is example of only perlin noise, third row has only poisson noise added with sources, and final row consists both types of noise with random source distribution.
 
 
 
